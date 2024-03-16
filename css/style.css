@@ -476,4 +476,97 @@ header .nav--wrapper--btn a {
   color: #8447E9;
   font-size: 16px;
   font-weight: 500;
+}
+
+#fourth {
+  width: 100%;
+  padding: 136px 0px;
+  background: #8447E9;
+}
+#fourth .fourth--wrap {
+  padding: 0px 80px;
+}
+#fourth .fourth--wrap p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  margin-bottom: 24px;
+}
+#fourth .fourth--wrap h1 {
+  width: 750px;
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 500;
+  letter-spacing: -1.6px;
+  margin-bottom: 91px;
+}
+#fourth .fourth--wrap h1 span {
+  position: relative;
+}
+#fourth .fourth--wrap h1 span svg {
+  position: absolute;
+  bottom: -3px;
+  left: -2px;
+}
+#fourth .fourth--wrap--cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 64px;
+  column-gap: 34px;
+}
+#fourth .fourth--wrap--cards--card {
+  width: 523px;
+}
+#fourth .fourth--wrap--cards--card img {
+  width: 100%;
+}
+#fourth .fourth--wrap--cards--card p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 32px;
+}
+#fourth .fourth--wrap--cards--card p span:nth-child(2) {
+  color: #BDB0EC;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#fourth .fourth--wrap button {
+  background: transparent;
+  padding: 20px 32px;
+  border: 1px solid #F5F5F5;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  margin-top: 88px;
+}
+#fourth .fourth--wrap button:hover {
+  background: #F5F5F5;
+  transition: all 0.2s linear;
+}
+#fourth .fourth--wrap button:hover a {
+  color: #8447E9;
+}
+#fourth .fourth--wrap button:active {
+  background: transparent;
+  transition: all 0.2s linear;
+}
+#fourth .fourth--wrap button:active a {
+  color: #f5f5f5;
+}
+#fourth .fourth--wrap button a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #F5F5F5;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.8px;
 }/*# sourceMappingURL=style.css.map */

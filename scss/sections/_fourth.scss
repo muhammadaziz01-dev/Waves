@@ -1,0 +1,109 @@
+#fourth{
+    width: 100%;
+    padding: 136px 0px;
+    background: $color-brend;
+    
+
+    .fourth--wrap{
+
+        padding: 0px 80px;
+        p{
+            color: $secondary-color;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 1.2px;
+            margin-bottom: 24px;
+        }
+
+        h1{
+            width: 750px;
+            color: $secondary-color;
+            font-size: 40px;
+            font-weight: 500;
+            letter-spacing: -1.6px;
+            margin-bottom: 91px;
+
+            span{
+                position: relative;
+
+                svg{
+                    position: absolute;
+                    bottom: -3px;
+                    left: -2px;
+                }
+            }
+        }
+
+        &--cards{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            row-gap: 64px;
+            column-gap: 34px;
+
+            &--card{
+                width: 523px;
+
+                img{
+                    width: 100%;
+                }
+                p{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    color: $secondary-color;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                    margin-top: 32px;
+
+                    span:nth-child(2){
+                        color:  #BDB0EC;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                    }
+                }
+            }
+        }
+
+        button{
+            background: transparent;
+            padding: 20px 32px;
+            border: 1px solid  #F5F5F5;
+            cursor: pointer;
+            transition: all 0.2s linear;
+            margin-top: 88px;
+
+            &:hover{
+                background: #F5F5F5;
+                transition: all 0.2s linear;
+
+                a{
+                    color: $color-brend;
+                }
+            }
+            
+            &:active{
+                background:transparent;
+                transition: all 0.2s linear;
+
+                a{
+                    color: #f5f5f5;
+                }
+            }
+
+
+            a{
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                color: #F5F5F5;
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: -0.8px;
+            }
+        }
+    }
+}
