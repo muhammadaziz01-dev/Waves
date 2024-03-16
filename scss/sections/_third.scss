@@ -1,0 +1,109 @@
+#third{
+    width: 100%;
+    padding: 88px 0px 140px;
+
+
+    .third--wrap{
+        padding: 0px 80px;
+        p{
+            color: $color-brend;
+            font-size: 16px;
+            font-weight: 600;
+            letter-spacing: 1.2px;
+            margin-bottom: 24px;
+        }
+
+        h1{
+            width: 742px;
+            color: $primary-color;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -1.6px;
+            margin-bottom: 88px;
+        }
+
+        &--cards{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            row-gap: 64px;
+            column-gap: 90px;
+            position: relative;
+
+            &-card{
+                h3{
+                    color: $color-brend;
+                    font-size: 32px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: -0.48px;
+                    margin: 32px 0px;
+                }
+
+                p{
+                    width: 280px;
+                    color: $text-color2;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: -0.8px;
+                }
+
+                h4{
+                    color:  $text-color;
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: -0.8px;
+                    position: relative;
+
+                    svg{
+                        position: absolute;
+                        bottom: -4px;
+                        left: -2px;
+                    }
+                }
+            }  
+            
+            button{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                padding: 20px 32px;
+                border: 1px solid $color-brend;
+                background-color: transparent;
+                cursor: pointer;
+                transition: all .2s linear;
+                
+                &:hover{
+                    transition: all .2s linear;
+                    background-color: $color-brend;
+
+                    a{
+                        color: $secondary-color; 
+                    }
+                }
+
+                &:active{
+                    transition: all .2s linear;
+                    background-color: transparent;
+
+                    a{
+                        color: $color-brend; 
+                    }
+                }
+
+                a{
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    color: $color-brend;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
