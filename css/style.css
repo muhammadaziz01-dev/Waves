@@ -1,3 +1,27 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/montserrat-v26-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../assets/fonts/montserrat-v26-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../assets/fonts/montserrat-v26-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
 * {
   margin: 0;
   padding: 0;
@@ -14,22 +38,28 @@ ul {
   list-style: none;
 }
 
-.btn-warning, .btn-danger, .btn-success, .btn-primary {
-  padding: 8px 12px;
+#intro .intro--wrapper--card div button:nth-child(1), header .nav--wrapper--btn, .btn-warning, .btn-danger, .btn-success, .btn-primary {
+  padding: 12px 24px;
   display: grid;
   place-content: center;
   border: none;
-  border-radius: 6px;
   color: #fff;
   transition: all 0.2s linear;
-  box-shadow: 0 0 3px rgba(73, 73, 255, 0.563);
-  background-color: rgb(73, 73, 255);
-  margin: 8px;
+  box-shadow: #8447E9;
+  background-color: #8447E9;
+  cursor: pointer;
 }
 
-.btn-warning:hover, .btn-danger:hover, .btn-success:hover, .btn-primary:hover {
-  background-color: rgba(73, 73, 255, 0.76);
+#intro .intro--wrapper--card div button:nth-child(1):hover, header .nav--wrapper--btn:hover, .btn-warning:hover, .btn-danger:hover, .btn-success:hover, .btn-primary:hover {
+  transition: all 0.2s linear;
+  background-color: #9e7fd1;
   color: #ebebeb;
+}
+
+#intro .intro--wrapper--card div button:nth-child(1):active, header .nav--wrapper--btn:active {
+  color: #ebebeb;
+  box-shadow: #8447E9;
+  background-color: #8447E9;
 }
 
 .card, .box {
@@ -79,7 +109,101 @@ ul {
 }
 
 .container {
-  max-width: 1250px;
+  max-width: 1300px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 10px;
+}
+
+header .nav--wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0px;
+}
+header .nav--wrapper--logo {
+  cursor: pointer;
+}
+header .nav--wrapper--list {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+header .nav--wrapper--list--itim-link {
+  color: #0F0F0F;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.8px;
+  transition: all 0.2s linear;
+}
+header .nav--wrapper--list--itim-link:hover {
+  color: #8447E9;
+  transition: all 0.2s linear;
+}
+header .nav--wrapper--btn a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.8px;
+}
+
+#intro {
+  display: flex;
+  padding: 158px 0px 100px 0px;
+  justify-content: center;
+  align-items: center;
+}
+#intro .intro--wrapper--card h1 {
+  width: 608px;
+  color: #000000;
+  text-align: center;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -3.41px;
+  margin-bottom: 72px;
+}
+#intro .intro--wrapper--card h1 span {
+  color: #8447E9;
+  position: relative;
+}
+#intro .intro--wrapper--card h1 span svg {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+#intro .intro--wrapper--card div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+}
+#intro .intro--wrapper--card div button:nth-child(1) a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.8px;
+}
+#intro .intro--wrapper--card div button:nth-child(2) {
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  cursor: pointer;
+  color: #0F0F0F;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }/*# sourceMappingURL=style.css.map */

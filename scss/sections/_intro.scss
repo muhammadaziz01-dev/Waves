@@ -1,1 +1,76 @@
-// codes
+#intro{
+    display: flex;
+    padding: 158px 0px 100px 0px;
+    justify-content: center;
+    align-items: center;
+
+    .intro--wrapper--card{
+
+        h1{
+            width: 608px;
+            color: $primary-color;
+            text-align: center;
+            font-size: 62px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: -3.41px;
+            margin-bottom: 72px;
+
+            span{
+                color: $color-brend;
+                position: relative;
+
+                svg{
+                    position: absolute;
+                    bottom: -2px;
+                    left: 0;
+                }
+            }
+        }
+
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 48px;
+
+            button:nth-child(1){
+                @extend %buttonStyle;
+
+                &:hover{
+                  @extend %buttonStyleHover;
+                }
+        
+                &:active{
+                  @extend %buttonStyleFocus;
+                }
+                a{
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    color: $secondary-color;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: -0.8px;
+                }
+            }
+
+            button:nth-child(2){
+                border: none;
+                background-color: transparent;
+                display: flex;
+                align-items: center;
+                gap: 16px;
+                cursor: pointer;
+                color: $text-color;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+        }
+    }
+}
