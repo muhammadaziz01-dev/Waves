@@ -569,4 +569,66 @@ header .nav--wrapper--btn a {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: -0.8px;
+}
+
+#fifth {
+  width: 100%;
+  padding: 116px 0px 136px;
+}
+#fifth .fifth--wrap {
+  padding: 0px 80px;
+}
+#fifth .fifth--wrap h1 {
+  color: #000000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.6px;
+  margin-bottom: 80px;
+}
+#fifth .fifth--wrap--card {
+  padding: 32px 36px;
+  gap: 8px;
+  background: #E1DBF6;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+#fifth .fifth--wrap--card-titil h2 {
+  width: 517px;
+  color: #0F0F0F;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  margin-bottom: 48px;
+}
+#fifth .fifth--wrap--card-titil h4 {
+  color: #8447E9;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.8px;
+}
+#fifth .fifth--wrap--card-titil p {
+  color: #0F0F0F;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+#fifth .fifth--wrap--card-titil p span {
+  font-weight: 400;
+}
+#fifth .fifth--wrap--card svg {
+  position: relative;
+  right: -92px;
 }/*# sourceMappingURL=style.css.map */

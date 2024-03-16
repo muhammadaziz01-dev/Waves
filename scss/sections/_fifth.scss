@@ -1,0 +1,71 @@
+#fifth{
+    width: 100%;
+    padding: 116px 0px 136px;
+
+    .fifth--wrap{
+        padding: 0px 80px;
+
+        h1{
+            color: $primary-color;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -1.6px;
+            margin-bottom: 80px;
+        }
+
+        &--card{
+            padding: 32px 36px;
+            gap: 8px;
+            background: $bg-card;
+            position: relative;
+            display: flex;
+            align-items: center;
+            gap: 60px;
+
+            &-titil{
+                h2{
+                    width: 517px;
+                    color: $text-color;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: -0.48px;
+                    margin-bottom: 48px;
+                }
+
+                h4{
+                    color: $color-brend;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    letter-spacing: -0.8px;
+                }
+
+                p{
+                    color: $text-color;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    margin-top: 4px;
+
+                    span{
+                        font-weight: 400;  
+                    }
+                }
+            }
+
+            svg{
+                position: relative;
+                right: -92px;
+            }
+        }
+    }
+}
