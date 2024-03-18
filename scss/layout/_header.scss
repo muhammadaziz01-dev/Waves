@@ -14,6 +14,10 @@ header {
         align-items: center;
         gap: 60px;
 
+        .activ{
+          color: $color-brend !important;
+        }
+
         &--itim-link{
           color: $text-color;
           font-size: 16px;

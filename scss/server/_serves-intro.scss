@@ -1,0 +1,29 @@
+#serves-intro{
+    width: 100%;
+    padding: 88px 0px;
+    background: $bg-card;
+
+    .serves-intro--wrapper--title{
+        padding-left: 80px;
+
+        p{
+            color: $color-brend;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            letter-spacing: 1.2px; 
+            margin-bottom: 40px;
+        }
+
+        h1{
+            width: 750px;
+            color: $text-color;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: -1.6px;
+        }
+    }
+}

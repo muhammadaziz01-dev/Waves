@@ -128,6 +128,9 @@ header .nav--wrapper--list {
   align-items: center;
   gap: 60px;
 }
+header .nav--wrapper--list .activ {
+  color: #8447E9 !important;
+}
 header .nav--wrapper--list--itim-link {
   color: #0F0F0F;
   font-size: 16px;
@@ -374,7 +377,7 @@ footer .footer--wrap--botton {
   10% {
     transform: translateX(-350px);
   }
-  10% {
+  15% {
     transform: translateX(-700px);
   }
   20% {
@@ -806,4 +809,91 @@ footer .footer--wrap--botton {
   align-items: center;
   gap: 8px;
   color: #8447E9;
+}
+
+#serves-intro {
+  width: 100%;
+  padding: 88px 0px;
+  background: #E1DBF6;
+}
+#serves-intro .serves-intro--wrapper--title {
+  padding-left: 80px;
+}
+#serves-intro .serves-intro--wrapper--title p {
+  color: #8447E9;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  margin-bottom: 40px;
+}
+#serves-intro .serves-intro--wrapper--title h1 {
+  width: 750px;
+  color: #0F0F0F;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.6px;
+}
+
+#serves-main {
+  width: 100%;
+  padding: 88px 80px;
+}
+#serves-main .serves-main--wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 80px;
+  gap: 180px;
+}
+#serves-main .serves-main--wrapper--card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#serves-main .serves-main--wrapper--card--text h1 {
+  color: #8447E9;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.48px;
+  margin-bottom: 40px;
+}
+#serves-main .serves-main--wrapper--card--text p {
+  width: 521px;
+  color: #0F0F0F;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 141.9%; /* 28.38px */
+  letter-spacing: -0.6px;
+  margin-bottom: 30px;
+}
+#serves-main .serves-main--wrapper--card--text ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 34px;
+  row-gap: 20px;
+  padding-left: 32px;
+}
+#serves-main .serves-main--wrapper--card--text ul li {
+  color: #8447E9;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.8px;
+  position: relative;
+}
+#serves-main .serves-main--wrapper--card--text ul li::after {
+  content: "";
+  width: 16px;
+  height: 2px;
+  background: #E1DBF6;
+  position: absolute;
+  top: 45%;
+  left: -32px;
 }/*# sourceMappingURL=style.css.map */
