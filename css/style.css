@@ -896,4 +896,82 @@ footer .footer--wrap--botton {
   position: absolute;
   top: 45%;
   left: -32px;
+}
+
+#contact-intro {
+  width: 100%;
+  padding: 88px 0px;
+}
+#contact-intro .contact-intro--wrapper--title h1 {
+  color: #0F0F0F;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -1.6px;
+  margin-bottom: 40px;
+}
+#contact-intro .contact-intro--wrapper--title p {
+  width: 650px;
+  color: #0F0F0F;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 80px;
+}
+#contact-intro .contact-intro--wrapper--title p span {
+  font-weight: 500;
+  color: #8447E9;
+}
+#contact-intro .contact-intro--wrapper--title form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+#contact-intro .contact-intro--wrapper--title form input {
+  width: 500px;
+  height: 48px;
+  border: 1px solid transparent;
+  border-bottom: 2px solid #A1AEBF;
+  padding: 0px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: #0F0F0F;
+  background: transparent;
+  outline: none;
+}
+#contact-intro .contact-intro--wrapper--title form p {
+  display: flex;
+  align-items: start;
+  gap: 30px;
+}
+#contact-intro .contact-intro--wrapper--title form p span:nth-child(2) {
+  color: #0F0F0F;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 4px;
+  position: relative;
+}
+#contact-intro .contact-intro--wrapper--title form p span:nth-child(2) svg {
+  position: absolute;
+  bottom: -2px;
+  left: -10px;
+}
+#contact-intro .contact-intro--wrapper--title form button {
+  width: 197px;
+  padding: 20px 32px;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  color: #ffffff;
+  background: #8447E9;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }/*# sourceMappingURL=style.css.map */
